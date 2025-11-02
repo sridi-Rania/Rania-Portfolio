@@ -10,7 +10,7 @@ const Footer = () => {
               rania.sridi
             </h3>
             <p className="text-gray-400">
-              Développeuse Full Stack passionnée par la création d'expériences web modernes.
+Ingénieure en intelligence artificielle passionnée par la création de solutions innovantes.
             </p>
           </div>
 
