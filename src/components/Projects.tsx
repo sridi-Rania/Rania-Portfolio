@@ -2,6 +2,7 @@ import { motion } from 'framer-motion';
 import { useInView } from 'framer-motion';
 import { useRef } from 'react';
 import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
+import scentImg from '../assets/scent.png';
 
 interface Project {
   title: string;
@@ -58,6 +59,14 @@ const Projects = () => {
       technologies: ['Python', 'PyTorch', 'Doctr', 'OpenCV'],
       image: 'https://images.unsplash.com/photo-1456324504439-367cee3b3c32?w=800&h=600&fit=crop',
       github: 'https://github.com/sridi-Rania/Doctr-finetune-for-arabic',
+      live: '#',
+    },
+    {
+      title: 'ScentMatch',
+      description: 'ScentMatch est un projet innovant qui combine un site web regroupant les parfums de luxe et de moyenne gamme avec des modèles d’IA avancés basés sur les embeddings. L’intelligence artificielle permet aux clients de scanner les notes olfactives d’un parfum de luxe et de leur proposer instantanément des alternatives similaires de moyenne gamme, offrant ainsi une expérience personnalisée et économique.',
+      technologies: ['Python', 'Prisma', 'Embeddidng', 'Postgress' , ],
+      image: scentImg,
+      github: 'https://github.com/sridi-Rania/ScentMatch',
       live: '#',
     },
    
