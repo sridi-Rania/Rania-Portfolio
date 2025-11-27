@@ -2,8 +2,6 @@ import { motion } from 'framer-motion';
 import { useInView } from 'framer-motion';
 import { useRef } from 'react';
 import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
-import scentImg from '../assets/scent.png';
-
 interface Project {
   title: string;
   description: string;
