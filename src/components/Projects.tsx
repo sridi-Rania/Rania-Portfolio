@@ -65,7 +65,7 @@ const Projects = () => {
       title: 'ScentMatch',
       description: 'ScentMatch est un projet innovant qui combine un site web regroupant les parfums de luxe et de moyenne gamme avec des modèles d’IA avancés basés sur les embeddings. L’intelligence artificielle permet aux clients de scanner les notes olfactives d’un parfum de luxe et de leur proposer instantanément des alternatives similaires de moyenne gamme, offrant ainsi une expérience personnalisée et économique.',
       technologies: ['Python', 'Prisma', 'Embeddidng', 'Postgress' , ],
-      image: scentImg,
+      image: "https://imgs.search.brave.com/js_JExybGsgyZwTJR3kBY_tVXHhO1BuMh_-rH9nfaoI/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMjE5/MzU4MDI5MC9mci9w/aG90by9wdWx2JUMz/JUE5cmlzYXRpb24t/JUMzJUEwLWxhLW1h/aW4tZHUtcGFyZnVt/LXN1ci1jYXJ0ZS1w/b3VyLXRlc3Rlci1s/ZS1wYXJmdW0tZW4t/dnVlLXJhcHByb2No/JUMzJUE5ZS5qcGc_/cz02MTJ4NjEyJnc9/MCZrPTIwJmM9OTJB/ZEo5YXFPWUJfbllw/MmJLYVk5ZnhIT2hv/THl2ZUZDUWFBM0xH/SEhzTT0",
       github: 'https://github.com/sridi-Rania/ScentMatch',
       live: '#',
     },
