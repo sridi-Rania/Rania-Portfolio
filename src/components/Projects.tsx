@@ -17,6 +17,14 @@ const Projects = () => {
   const isInView = useInView(ref, { once: true, margin: "-100px" });
 
   const projects: Project[] = [
+      {
+      title: 'ScentMatch',
+      description: 'ScentMatch est un projet innovant qui combine un site web regroupant les parfums de luxe et de moyenne gamme avec des modèles d’IA avancés basés sur les embeddings. L’intelligence artificielle permet aux clients de scanner les notes olfactives d’un parfum de luxe et de leur proposer instantanément des alternatives similaires de moyenne gamme, offrant ainsi une expérience personnalisée et économique.',
+      technologies: ['Python', 'Prisma', 'Embeddings','Matching',  'Intelligent search',  'Postgress' , ],
+      image: "https://imgs.search.brave.com/js_JExybGsgyZwTJR3kBY_tVXHhO1BuMh_-rH9nfaoI/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMjE5/MzU4MDI5MC9mci9w/aG90by9wdWx2JUMz/JUE5cmlzYXRpb24t/JUMzJUEwLWxhLW1h/aW4tZHUtcGFyZnVt/LXN1ci1jYXJ0ZS1w/b3VyLXRlc3Rlci1s/ZS1wYXJmdW0tZW4t/dnVlLXJhcHByb2No/JUMzJUE5ZS5qcGc_/cz02MTJ4NjEyJnc9/MCZrPTIwJmM9OTJB/ZEo5YXFPWUJfbllw/MmJLYVk5ZnhIT2hv/THl2ZUZDUWFBM0xH/SEhzTT0",
+      github: 'https://github.com/sridi-Rania/ScentMatch',
+      live: '#',
+    },
     {
       title: 'Healthcare OCR & TTS System',
       description: 'Application full-stack pour professionnels de santé : lecture automatique et vocalisation de documents médicaux avec OCR arabe et TTS.',
@@ -26,6 +34,15 @@ const Projects = () => {
       live: '#',
       company: 'Data2Innov (Fév 2025 – Août 2025)',
     },
+    {
+  title: 'RAG Insurance Assistant',
+  description: 'RAG Insurance Assistant est un chatbot intelligent spécialisé dans le domaine de l’assurance, conçu pour fournir des réponses précises et contextualisées en temps réel. Il s’appuie sur une base vectorielle FAISS pour effectuer des recherches sémantiques rapides et sur Sentence-Transformers pour générer des embeddings de haute qualité. Le modèle DeepSeek, intégré via OpenRouter API, permet une génération de réponses contextualisée et fiable. Une interface interactive développée avec Streamlit offre une expérience conversationnelle fluide, tandis que l’utilisation de Docker garantit une déployabilité simple, reproductible et portable.',
+  technologies: ['Python', 'FAISS', 'Sentence-Transformers', 'LangChain', 'Streamlit', 'Docker', 'Git', 'OpenRouter API', 'TensorFlow', 'PyTorch'],
+  image: 'https://imgs.search.brave.com/4c2gbRHLMCn4YRPuHjpNu6p5n9Q-6wcEDz8xImao0sM/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pbnN1/cmFuY2Vqb3VybmFsLmNvbS9jb250ZW50L2ltYWdlcy9jaGF0Ym90LWN1c3RvbWVyLXN1cHBvcnQuanBn',
+  github: '#',
+  live: '#',
+},
+
     {
       title: 'Road Sign Detection Mobile App',
       description: 'Système de détection de panneaux routiers en temps réel avec YOLOv11 intégré dans une application mobile React Native.',
@@ -59,14 +76,7 @@ const Projects = () => {
       github: 'https://github.com/sridi-Rania/Doctr-finetune-for-arabic',
       live: '#',
     },
-    {
-      title: 'ScentMatch',
-      description: 'ScentMatch est un projet innovant qui combine un site web regroupant les parfums de luxe et de moyenne gamme avec des modèles d’IA avancés basés sur les embeddings. L’intelligence artificielle permet aux clients de scanner les notes olfactives d’un parfum de luxe et de leur proposer instantanément des alternatives similaires de moyenne gamme, offrant ainsi une expérience personnalisée et économique.',
-      technologies: ['Python', 'Prisma', 'Embeddidng', 'Postgress' , ],
-      image: "https://imgs.search.brave.com/js_JExybGsgyZwTJR3kBY_tVXHhO1BuMh_-rH9nfaoI/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMjE5/MzU4MDI5MC9mci9w/aG90by9wdWx2JUMz/JUE5cmlzYXRpb24t/JUMzJUEwLWxhLW1h/aW4tZHUtcGFyZnVt/LXN1ci1jYXJ0ZS1w/b3VyLXRlc3Rlci1s/ZS1wYXJmdW0tZW4t/dnVlLXJhcHByb2No/JUMzJUE5ZS5qcGc_/cz02MTJ4NjEyJnc9/MCZrPTIwJmM9OTJB/ZEo5YXFPWUJfbllw/MmJLYVk5ZnhIT2hv/THl2ZUZDUWFBM0xH/SEhzTT0",
-      github: 'https://github.com/sridi-Rania/ScentMatch',
-      live: '#',
-    },
+  
    
   ];
 
