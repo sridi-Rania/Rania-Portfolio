@@ -38,7 +38,7 @@ const Projects = () => {
   title: 'RAG Insurance Assistant',
   description: 'RAG Insurance Assistant est un chatbot intelligent spécialisé dans le domaine de l’assurance, conçu pour fournir des réponses précises et contextualisées en temps réel. Il s’appuie sur une base vectorielle FAISS pour effectuer des recherches sémantiques rapides et sur Sentence-Transformers pour générer des embeddings de haute qualité. Le modèle DeepSeek, intégré via OpenRouter API, permet une génération de réponses contextualisée et fiable. Une interface interactive développée avec Streamlit offre une expérience conversationnelle fluide, tandis que l’utilisation de Docker garantit une déployabilité simple, reproductible et portable.',
   technologies: ['Python', 'FAISS', 'Sentence-Transformers', 'LangChain', 'Streamlit', 'Docker', 'Git', 'OpenRouter API', 'TensorFlow', 'PyTorch'],
-  image: 'https://imgs.search.brave.com/4c2gbRHLMCn4YRPuHjpNu6p5n9Q-6wcEDz8xImao0sM/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pbnN1/cmFuY2Vqb3VybmFsLmNvbS9jb250ZW50L2ltYWdlcy9jaGF0Ym90LWN1c3RvbWVyLXN1cHBvcnQuanBn',
+  image: 'https://www.hashstudioz.com/blog/rag-in-artificial-intelligence/',
   github: '#',
   live: '#',
 },
