@@ -25,6 +25,14 @@ const Projects = () => {
       github: 'https://github.com/sridi-Rania/ScentMatch',
       live: '#',
     },
+      {
+  title: 'RAG Insurance Assistant',
+  description: 'RAG Insurance Assistant est un chatbot intelligent spécialisé dans le domaine de l’assurance, conçu pour fournir des réponses précises et contextualisées en temps réel. Il s’appuie sur une base vectorielle FAISS pour effectuer des recherches sémantiques rapides et sur Sentence-Transformers pour générer des embeddings de haute qualité. Le modèle DeepSeek, intégré via OpenRouter API, permet une génération de réponses contextualisée et fiable. Une interface interactive développée avec Streamlit offre une expérience conversationnelle fluide, tandis que l’utilisation de Docker garantit une déployabilité simple, reproductible et portable.',
+  technologies: ['Python', 'FAISS', 'Sentence-Transformers', 'LangChain', 'Streamlit', 'Docker', 'Git', 'OpenRouter API', 'TensorFlow', 'PyTorch'],
+  image: 'https://www.hashstudioz.com/blog/rag-in-artificial-intelligence/',
+  github: '#',
+  live: '#',
+},
     {
       title: 'Healthcare OCR & TTS System',
       description: 'Application full-stack pour professionnels de santé : lecture automatique et vocalisation de documents médicaux avec OCR arabe et TTS.',
@@ -34,14 +42,7 @@ const Projects = () => {
       live: '#',
       company: 'Data2Innov (Fév 2025 – Août 2025)',
     },
-    {
-  title: 'RAG Insurance Assistant',
-  description: 'RAG Insurance Assistant est un chatbot intelligent spécialisé dans le domaine de l’assurance, conçu pour fournir des réponses précises et contextualisées en temps réel. Il s’appuie sur une base vectorielle FAISS pour effectuer des recherches sémantiques rapides et sur Sentence-Transformers pour générer des embeddings de haute qualité. Le modèle DeepSeek, intégré via OpenRouter API, permet une génération de réponses contextualisée et fiable. Une interface interactive développée avec Streamlit offre une expérience conversationnelle fluide, tandis que l’utilisation de Docker garantit une déployabilité simple, reproductible et portable.',
-  technologies: ['Python', 'FAISS', 'Sentence-Transformers', 'LangChain', 'Streamlit', 'Docker', 'Git', 'OpenRouter API', 'TensorFlow', 'PyTorch'],
-  image: 'https://www.hashstudioz.com/blog/rag-in-artificial-intelligence/',
-  github: '#',
-  live: '#',
-},
+  
 
     {
       title: 'Road Sign Detection Mobile App',
